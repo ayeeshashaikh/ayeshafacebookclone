@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Js cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--youtube logo link from boostrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./social.css">
+    <title>social media</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <i class="fa fa-bars" style="color: white;"></i>
+        <a class="navbar-brand" href="#">
+          <i class="fa fa-youtube-play" style="font-size:25px;color:red"></i>                <!--youtube logo from boostrap-->
+        YouTube</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="search">
+              <input placeholder="Search">
+              <!--search icon from boostrap-->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+            </li>
+            
+            <li>
+              <!--mic-->
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="100" fill="#fff" class="bi bi-mic-fill" viewBox="0 0 16 16">
+                <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z"/>
+                <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/>
+              </svg>
+            </li>
+          </ul>
+          
+          <div class="right-icons">
+            <!--this code for video icon copy from boostrap -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#fff" class="bi bi-camera-video" viewBox="0 0 16 16" style="margin-left:130px">
+              <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1z"/>
+            </svg>
+            <span>
+              <!--bell icon-->
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#fff" class="bi bi-bell" viewBox="0 0 16 16">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+              </svg>
+            </span>
+            <!--person-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#fff" class="bi bi-person" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    
+    
+    </body>
+    </html>
+    
+    
+    
+
+      <!--sidebar-->
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="icon">
+              <a href=" "><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Home-icon.svg/1200px-Home-icon.svg.png" alt="home" height="30px" width="30px"
+                data-bs-toggle="tooltip" data-bs-placement="right" title="Home"></a>
+                Home
+            </div>
+    
+            <div class="icon">
+              <a href=" "><img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png" alt="search"  height="30px" width="30px"
+                data-bs-toggle="tooltip" data-bs-placement="right" title="Search"></a>
+                Search
+            </div>
+    
+            <div class="icon">
+              <a href=" "><img src="data:image/png;base64,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" alt="reels"  height="30px" width="30px"
+                data-bs-toggle="tooltip" data-bs-placement="right" title="Reels"></a>
+                Shorts
+            </div>
+    
+            <div class="icon">
+              <a href=" "><img src="https://icons.veryicon.com/png/o/object/material-design-icons/notifications-1.png" alt="notofications"  height="30px" width="30px"
+                data-bs-toggle="tooltip" data-bs-placement="right" title="Notification"></a>
+                Notofications
+            </div>
+    
+            <div class="icon">
+              <a href=" "><img src="https://cdn.icon-icons.com/icons2/2406/PNG/512/plus_circle_new_create_icon_145948.png" alt="create"  height="30px" width="30px"
+                data-bs-toggle="tooltip" data-bs-placement="right" title="Create"></a>
+                Create
+            </div>
+    
+            <div class="icon">
+              <a href=" "><img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png" alt="profile"  height="30px" width="30px"
+                data-bs-toggle="tooltip" data-bs-placement="right" title="Profile"></a>
+                Profile
+            </div>
+    
+            <div class="icon " style="margin-top: 40px;">
+              <a href=" "><img src="data:image/png;base64,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" alt="threads"  height="30px" width="30px"
+                data-bs-toggle="tooltip" data-bs-placement="right" title="Threads"></a>
+                Threads
+            </div>
+    
+            <div class="icon">
+              <a href=" "><img src="https://www.freeiconspng.com/uploads/more-details-icon-pictures-4.png" alt="more"  height="30px" width="30px"
+                data-bs-toggle="tooltip" data-bs-placement="right" title="More"></a>
+                More
+            </div>
+    
+            <!--videos or photos-->
+            <div class="container text-center">
+              
+                <div class="col">
+                  Column
+                </div>
+                <div class="col">
+                  Column
+                </div>
+                <div class="col">
+                  Column
+                </div>
+              
+            </div>
+      
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+            
+   
+</body>
+</html>
